@@ -1,0 +1,341 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #004c70;
+}
+
+p {
+    text-align: center;
+    margin: 0 20px;
+    font-size: 1.2em;
+}
+
+header {
+    background-color: #004c70;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+header .cta {
+    background-color: #f9d342;
+    border: none;
+    color: #004c70;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+header .cta:hover {
+    background-color: #e0b728;
+}
+
+/* Menú de navegación */
+nav {
+    background-color: #005f99;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #004c70;
+    border-radius: 5px;
+}
+
+
+/* Estilos de la sección Parallax con contenido */
+.parallax-content {
+    background-image: url('tecnologia-de-nube.jpg');
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.texto-parallax {
+    background: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente para el texto */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+.texto-parallax h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.texto-parallax p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+/* Sección Introducción */
+.introduccion {
+    padding: 50px;
+    background-color: #e6f7ff;
+    text-align: center;
+}
+
+.introduccion img {
+    width: 80%;
+    margin-top: 20px;
+}
+
+/* Sección Tipos de Servicios Cloud */
+.tipos-servicios {
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+.servicios {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.servicio {
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.servicio img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Galería de Imágenes */
+.galeria {
+    padding: 50px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.imagenes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.imagenes img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.imagenes img:hover {
+    transform: scale(1.1);
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #666;
+}
+
+/* Sección Ventajas */
+.ventajas {
+    padding: 50px;
+    background-color: #e0f7fa;
+    text-align: center;
+}
+
+.ventajas ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ventajas li {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #004c70;
+}
+
+/* Sección de Contacto */
+.contacto {
+    padding: 50px;
+    background-color: #004c70;
+    color: white;
+    text-align: center;
+}
+
+.contacto p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.contacto .cta {
+    background-color: #f9d342;
+    border: none;
+    color: #004c70;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contacto .cta:hover {
+    background-color: #e0b728;
+}
+
+/* Pie de página */
+/* Footer profesional */
+footer {
+    background-color: #71a6c5;
+    color: rgb(71, 102, 75);
+    padding: 40px 0;
+    font-size: 0.9em;
+    border-top: 4px solid #004c70;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 50px;
+}
+
+.footer-section {
+    margin: 20px;
+    max-width: 300px;
+}
+
+.footer-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #f9d342;
+}
+
+.footer-section p {
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #f9d342;
+}
+
+.footer-section .socials a {
+    margin-right: 10px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.footer-section .socials a img {
+    width: 25px;
+    height: 25px;
+}
+
+.footer-section .socials a:hover {
+    transform: scale(2.1);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #82aec2;
+    padding-top: 20px;
+    font-size: 0.8em;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .footer-section .socials {
+        justify-content: center;
+    }
+}
+
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .servicios {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicio {
+        max-width: 100%;
+    }
+
+    .imagenes {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
